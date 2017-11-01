@@ -1,0 +1,166 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LFragment2">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_marginTop="75dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+
+            <Button
+                android:id="@+id/btn50"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button"
+                android:text="50주년기념관"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+
+                />
+
+
+            <Button
+                android:id="@+id/btnChristian"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="기독교교육관"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+
+            <Button
+                android:id="@+id/btnInsa"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button"
+                android:text="인문사회관"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btnLib"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="도서관"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+
+            <Button
+                android:id="@+id/btn1Science"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button"
+                android:text="제1과학관"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btn2Science"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="제2과학관"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+
+            <Button
+                android:id="@+id/btnDormitory"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button"
+                android:text="기숙사"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btnHall"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="강당"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+
+            <Button
+                android:id="@+id/btnBahrom"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button"
+                android:text="바롬관"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btnOthers"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="기타"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/notice"
+            android:title="공지" />
+        <item
+            android:id="@+id/found"
+            android:title="찾아요" />
+        <item
+            android:id="@+id/lost"
+            android:title="있어요" />
+        <item
+            android:id="@+id/disposal"
+            android:title="폐기직전" />
+    </group>
+
+    <item
+        android:id="@+id/login"
+        android:title="로그인"/>
+
+
+</menu>

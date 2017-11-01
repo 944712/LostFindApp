@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindActivity">
+    >
+
+    <LinearLayout
+        android:id="@+id/searchline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/searchTxt"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#92a8d1"
+            android:textSize="15dp"
+            android:hint="search..."
+            />
+
+        <ImageButton
+            android:id="@+id/searchBtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/find" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="260dp">
+
+
+        <ImageButton
+            android:id="@+id/writeBtn1"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:background="@drawable/circle"
+            android:src="@drawable/pencil2"
+            android:scaleType="center"
+            />
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/find_tab1"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="습득날짜"
+                android:background="#00ffffff"
+                />
+
+            <Button
+                android:id="@+id/find_tab2"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:background="#00ffffff"
+                android:text="습득장소" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</RelativeLayout>

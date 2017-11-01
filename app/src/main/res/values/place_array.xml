@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="place">
+        <item >50주년기념관</item>
+        <item >기독교교육관</item>
+        <item >인문사회관</item>
+        <item >도서관</item>
+        <item >제1과학관</item>
+        <item >제2과학관</item>
+        <item >기숙사</item>
+        <item >강당</item>
+        <item >바롬관</item>
+        <item >기타</item>
+    </string-array>
+
+</resources>
